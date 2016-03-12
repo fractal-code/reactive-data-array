@@ -22,7 +22,7 @@ ReactiveDataArray = function (targetArray, cursor, callbacks = {}) {
         removed: function (id) {
             var oldDoc = targetArray.splice(atIndex(id), 1);
 
-            if (callbacks.changed) {callbacks.removed(oldDoc);}
+            if (callbacks.removed) {callbacks.removed(oldDoc);}
         }
     });
 };
