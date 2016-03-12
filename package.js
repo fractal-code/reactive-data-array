@@ -1,6 +1,6 @@
 Package.describe({
   name: 'talos:reactive-data-array',
-  version: '0.2.0',
+  version: '1.0.0',
   summary: 'Create reactive arrays that track cursor data',
   git: 'https://github.com/talos-code/reactive-data-array'
 });
